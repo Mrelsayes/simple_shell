@@ -89,7 +89,7 @@ int print_dec(int in, int fd)
 }
 
 /**
- * number_converter - Converter function, a clone of atoi.
+ * number_convertor - Converter function, a clone of atoi.
  * @num: Number.
  * @base: Base.
  * @flag: Argument flag.
