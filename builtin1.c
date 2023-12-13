@@ -1,5 +1,11 @@
 #include "shell.h"
 
+/**
+ * m_history - Displays the history list and one command per line.
+ * @inf: Structure containing potential arguments
+ *
+ * Return: 0.
+ */
 
 int m_history(get_info *inf)
 {
