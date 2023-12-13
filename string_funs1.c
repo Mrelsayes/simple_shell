@@ -3,7 +3,8 @@
 /**
  * str_len - Returns the length of a string.
  * @str: The string whose length to check.
- * Return: Integer length of the string.
+ *
+ * Return: Integer length.
  */
 
 int str_len(char *str)
@@ -22,6 +23,7 @@ int str_len(char *str)
  * str_cmp - Performs lexicographic comparison of two strings.
  * @str1: The first string.
  * @str2: The second string.
+ *
  * Return: - || + || 0
  */
 
@@ -44,7 +46,8 @@ int str_cmp(char *str1, char *str2)
  * starts_w - Checks if n starts with hstack.
  * @hstack: String to search.
  * @n: The substring to find.
- * Return: Address of the next character of hstack or NULL.
+ *
+ * Return: Address of the next character || NULL.
  */
 
 char *starts_w(const char *hstack, const char *n)
@@ -59,7 +62,8 @@ char *starts_w(const char *hstack, const char *n)
  * str_cat - Concatenates two strings.
  * @dest: The destination buffer.
  * @src: The source buffer.
- * Return: Pointer to the destination buffer.
+ *
+ * Return: Pointer to the destination.
  */
 
 char *str_cat(char *dest, char *src)

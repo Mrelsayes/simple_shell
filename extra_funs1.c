@@ -3,7 +3,8 @@
 /**
  * int_active - Returns true if the shell is in interactive mode.
  * @info: Structure address.
- * Return: 1 if in interactive mode, 0 otherwise.
+ *
+ * Return: 1 || 0
  */
 
 int int_active(get_info *info)
@@ -15,7 +16,8 @@ int int_active(get_info *info)
  * is_delimeter - Checks if a character is a delimiter.
  * @c: The character to check.
  * @delim: The delimiter string.
- * Return: 1 if true, 0 if false.
+ *
+ * Return: 1 || 0
  */
 
 int is_delimeter(char c, char *delim)
@@ -29,7 +31,8 @@ int is_delimeter(char c, char *delim)
 /**
  * _isalpha - Checks for an alphabetic character.
  * @c: The character to check.
- * Return: 1 if c is alphabetic, 0 otherwise.
+ *
+ * Return: 1 || 0
  */
 
 int _isalpha(int c)
@@ -43,7 +46,8 @@ int _isalpha(int c)
 /**
  * _atoi - Converts a string to an integer.
  * @str: The string to be converted.
- * Return: 0 if no numbers in the string, the converted number otherwise.
+ *
+ * Return: 0 || the converted number otherwise.
  */
 
 int _atoi(char *str)

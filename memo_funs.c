@@ -5,7 +5,8 @@
  * @s: Pointer to the memory area.
  * @b: The byte to fill *s with.
  * @n: The amount of bytes to be filled.
- * Return: (s) A pointer to the memory area s.
+ *
+ * Return: A pointer to the memory area s.
  */
 
 char *mem_set(char *s, char b, unsigned int n)
@@ -38,7 +39,8 @@ void str_free(char **pp)
  * @ptr: Pointer to the previous malloc'ated block.
  * @size1: Byte size of the previous block.
  * @size2: Byte size of the new block.
- * Return: Pointer to the old block, nameen.
+ *
+ * Return: Pointer to the old block.
  */
 
 void *re_alloc(void *ptr, unsigned int size1, unsigned int size2)
@@ -68,7 +70,8 @@ void *re_alloc(void *ptr, unsigned int size1, unsigned int size2)
 /**
  * buffer_free - Frees a pointer and NULLs the address.
  * @ptr: Address of the pointer to free.
- * Return: 1 if freed, otherwise 0.
+ *
+ * Return: 1 || 0.
  */
 
 int buffer_free(void **ptr)

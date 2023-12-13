@@ -4,6 +4,7 @@
  * str_cpy - Copies a string.
  * @dest: The destination.
  * @src: The source.
+ *
  * Return: Pointer to the destination.
  */
 
@@ -25,7 +26,8 @@ char *str_cpy(char *dest, char *src)
 /**
  * str_dup - Duplicates a string.
  * @str: The string to duplicate.
- * Return: Pointer to the duplicated string.
+ *
+ * Return: Pointer to the destination.
  */
 
 char *str_dup(const char *str)
@@ -48,7 +50,7 @@ char *str_dup(const char *str)
 /**
  * _puts - Prints an input string.
  * @str: The string to be printed.
- * Return: Nothing.
+ *
  */
 
 void _puts(char *str)
@@ -67,7 +69,8 @@ void _puts(char *str)
 /**
  * _putchar - Writes the character c to stdout.
  * @c: The character to print.
- * Return: On success, 1. On error, -1 is returned
+ *
+ * Return: 1 || -1
  */
 
 int _putchar(char c)

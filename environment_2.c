@@ -3,6 +3,7 @@
 /**
  * g_env - Returns the string array copy of our environ.
  * @inf: Structure containing potential arguments.
+ *
  * Return: 0.
  */
 
@@ -20,8 +21,9 @@ char **g_env(get_info *inf)
 /**
  * unset_env - Removes an environment variable.
  * @inf: Structure containing potential arguments.
- * Return: 1 on deletion, 0 otherwise.
  * @v: The string representing the environment variable property.
+ *
+ * Return: 1 on deletion, 0 otherwise.
  */
 
 int unset_env(get_info *inf, char *v)
@@ -54,6 +56,7 @@ int unset_env(get_info *inf, char *v)
  * @inf: Structure containing potential arguments.
  * @v: The string representing the environment variable property.
  * @value: The string representing the environment variable value.
+ *
  * Return: 0.
  */
 

@@ -22,7 +22,8 @@ void error_puts(char *string)
 /**
  * error_putchar - Writes the character i to stderr.
  * @i: The character to print.
- * Return: On success, 1. On error, -1 is returned
+ *
+ * Return: 1 || -1
  */
 
 int error_putchar(char i)
@@ -44,7 +45,8 @@ int error_putchar(char i)
  * put_fd - Writes the character i to the given file descriptor.
  * @i: The character to print.
  * @fd: The file descriptor to write to.
- * Return: On success, 1. On error, -1 is returned
+ *
+ * Return: 1 || -1
  */
 
 int put_fd(char i, int fd)
@@ -66,6 +68,7 @@ int put_fd(char i, int fd)
  * puts_fd - Prints an input string.
  * @string: The string to be printed.
  * @fd: The file descriptor to write to.
+ *
  * Return: The number of characters put.
  */
 

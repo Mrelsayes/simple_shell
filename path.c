@@ -4,7 +4,8 @@
  * is_command - Determines if a file is an executable command.
  * @inf: The inf struct.
  * @p: Path to the file.
- * Return: 1 if true, or 0
+ *
+ * Return:  0 || 1
  */
 
 int is_command(get_info *inf, char *p)
@@ -27,7 +28,8 @@ int is_command(get_info *inf, char *p)
  * @p_str: The PATH string.
  * @idx1: Starting index.
  * @idx2: Stopping index.
- * Return: Pointer to the new buffer.
+ *
+ * Return: Pointer to new buffer.
  */
 
 char *duplicate_char(char *p_str, int idx1, int idx2)
@@ -47,7 +49,8 @@ char *duplicate_char(char *p_str, int idx1, int idx2)
  * @inf: The inf struct.
  * @p_str: The PATH string.
  * @cmd: The cmd to find.
- * Return: Full p of cmd if found or NULL.
+ *
+ * Return: Full path of cmd || NULL.
  */
 
 char *get_path(get_info *inf, char *p_str, char *cmd)

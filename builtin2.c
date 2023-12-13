@@ -3,6 +3,7 @@
 /**
  * m_exit - Exits the shell.
  * @inf: Structure containing potential arguments.
+ *
  * Return: Exits with status 0.
  */
 
@@ -31,6 +32,7 @@ int m_exit(get_info *inf)
 /**
  * m_cd - Changes the current directory of the process.
  * @inf: Structure containing potential arguments.
+ *
  * Return: 0.
  */
 
@@ -81,6 +83,7 @@ int m_cd(get_info *inf)
 /**
  * m_help - Displays help information.
  * @inf: Structure containing potential arguments.
+ *
  * Return: 0.
  */
 

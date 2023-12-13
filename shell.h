@@ -39,6 +39,7 @@ extern char **environ;
  * @str: Field representing a string.
  * @next: Pointer to the next node in the list.
  */
+
 typedef struct string_list
 {
 	int number;

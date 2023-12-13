@@ -4,7 +4,8 @@
  * main - Entry point.
  * @ac: Argument count.
  * @av: Argument vector.
- * Return: 0 on success, 1 on error.
+ *
+ * Return: 0 || 1
  */
 
 int main(int ac, char **av)

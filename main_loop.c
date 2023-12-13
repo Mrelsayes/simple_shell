@@ -4,7 +4,8 @@
  * shell_loop - Main shell loop.
  * @inf: The parameter and return inf struct.
  * @av: The argument vector from main.
- * Return: 0 on success, 1 on error, or error code.
+ *
+ * Return:  1 || 0 or error code.
  */
 
 int shell_loop(get_info *inf, char **av)
@@ -46,6 +47,7 @@ int shell_loop(get_info *inf, char **av)
 /**
  * get_builtin - Finds a built-in command.
  * @inf: The parameter and return inf struct.
+ *
  * Return: 0, -1, 1, or -2.
  */
 
@@ -77,7 +79,6 @@ int get_builtin(get_info *inf)
 /**
  * get_cmd - Finds a command in PATH.
  * @inf: The parameter and return inf struct.
- * Return: Void.
  */
 
 void get_cmd(get_info *inf)
@@ -119,7 +120,6 @@ void get_cmd(get_info *inf)
 /**
  * _fork - Forks an exec thread to run cmd.
  * @inf: The parameter and return inf struct.
- * Return: Void.
  */
 
 void _fork(get_info *inf)

@@ -5,7 +5,8 @@
  * @dest: The destination string to be copied to.
  * @src: The source string.
  * @n: The amount of characters to be copied.
- * Return: The concatenated string.
+ *
+ * Return: Concatenated string.
  */
 
 char *strn_cpy(char *dest, char *src, int n)
@@ -36,7 +37,8 @@ char *strn_cpy(char *dest, char *src, int n)
  * @dest: 1st string.
  * @src: 2nd string.
  * @n: The amount of bytes to be maximally used.
- * Return: The concatenated string.
+ *
+ * Return: Concatenated string.
  */
 
 char *strn_cat(char *dest, char *src, int n)
@@ -63,7 +65,8 @@ char *strn_cat(char *dest, char *src, int n)
  * str_chr - Locates a character in a string.
  * @s: The string to be parsed.
  * @c: The character to look for.
- * Return: (s) A pointer to the memory area s.
+ *
+ * Return: Pointer to the memory area s.
  */
 
 char *str_chr(char *s, char c)

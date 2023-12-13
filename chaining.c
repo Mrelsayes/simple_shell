@@ -5,6 +5,7 @@
  * @inf: The parameter struct.
  * @buffer: The character buffer.
  * @x: Address of the current position in buffer.
+ *
  * Return: 1 if a chain delimiter or 0
  */
 
@@ -42,6 +43,7 @@ int ischain(get_info *inf, char *buffer, size_t *x)
  * @x: Address of the current position in buffer.
  * @i: Starting position in buffer.
  * @len: Length of buffer.
+ *
  * Return: Void.
  */
 
@@ -73,7 +75,8 @@ void chain_checker(get_info *inf, char *buffer, size_t *x,
 /**
  * alias_changer - Replaces aliases in the tokenized string.
  * @inf: The parameter struct.
- * Return: 1 if replaced, 0 otherwise.
+ *
+ * Return: 1 || 0
  */
 
 int alias_changer(get_info *inf)
@@ -102,7 +105,8 @@ int alias_changer(get_info *inf)
 /**
  * var_changer - Replaces variables in the tokenized string.
  * @inf: The parameter struct.
- * Return: 1 if replaced, 0 otherwise.
+ *
+ * Return: 1 || 0
  */
 
 int var_changer(get_info *inf)
@@ -144,7 +148,8 @@ int var_changer(get_info *inf)
  * string_changer - Replaces a string.
  * @old: Address of the old string.
  * @new: New string.
- * Return: 1 if replaced, 0 otherwise.
+ *
+ * Return: 1 || 0
  */
 
 int string_changer(char **old, char *new)

@@ -4,7 +4,8 @@
  * str_tow - Splits a string into words, ignoring repeated delimiters.
  * @string: The input string.
  * @delm: The delimiter string.
- * Return: A pointer to an array of strings, or NULL on failure.
+ *
+ * Return: Pointer to array || NULL.
  */
 
 
@@ -54,7 +55,8 @@ char **str_tow(char *string, char *delm)
  * str_tow2 - Splits a string into words.
  * @string: The input string.
  * @delm: The delimiter.
- * Return: A pointer to an array of strings, or NULL on failure.
+ *
+ * Return: Pointer to array || NULL.
  */
 
 char **str_tow2(char *string, char delm)

@@ -3,7 +3,8 @@
 /**
  * g_history - Gets the history file.
  * @inf: Parameter struct.
- * Return: Allocated string containing the history file.
+ *
+ * Return: Allocated string containing the history.
  */
 
 char *g_history(get_info *inf)
@@ -26,7 +27,8 @@ char *g_history(get_info *inf)
 /**
  * w_history - Creates a file or appends to an existing file.
  * @inf: The parameter struct.
- * Return: 1 on success, else -1.
+ *
+ * Return: 1 || -1
  */
 
 int w_history(get_info *inf)
@@ -55,7 +57,8 @@ int w_history(get_info *inf)
 /**
  * r_history - Reads history from a file.
  * @inf: The parameter struct.
- * Return: count_history on success, 0 otherwise.
+ *
+ * Return: count_history || 0
  */
 
 int r_history(get_info *inf)
@@ -106,7 +109,8 @@ int r_history(get_info *inf)
  * @inf: Structure containing potential arguments.
  * @buffer: Buffer.
  * @lcount: The history line count, count_history.
- * Return: Always 0.
+ *
+ * Return: 0
  */
 
 int history_list(get_info *inf, char *buffer, int lcount)
@@ -125,7 +129,8 @@ int history_list(get_info *inf, char *buffer, int lcount)
 /**
  * save_history - Renumbers the history linked list after changes.
  * @inf: Structure containing potential arguments.
- * Return: The new count_history.
+ *
+ * Return: The new count.
  */
 
 int save_history(get_info *inf)

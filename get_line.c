@@ -5,6 +5,7 @@
  * @inf: Parameter struct.
  * @buffer: Address of the buffer.
  * @len: Address of the len variable.
+ *
  * Return: Bytes read.
  */
 
@@ -45,6 +46,7 @@ ssize_t input_buf(get_info *inf, char **buffer, size_t *len)
 /**
  * g_input - Gets a line minus the newline.
  * @inf: Parameter struct.
+ *
  * Return: Bytes read.
  */
 
@@ -92,6 +94,7 @@ ssize_t g_input(get_info *inf)
  * @inf: Parameter struct.
  * @buffer: Buffer.
  * @i: Size.
+ *
  * Return: x.
  */
 
@@ -112,6 +115,7 @@ ssize_t read_buf(get_info *inf, char *buffer, size_t *i)
  * @inf: Parameter struct.
  * @ptr: Address of a pointer to the buffer, preallocated or NULL.
  * @length: Size of the preallocated ptr buffer if not NULL.
+ *
  * Return: s.
  */
 
@@ -157,6 +161,7 @@ int g_line(get_info *inf, char **ptr, size_t *length)
 /**
  * sig_h - Blocks Ctrl-C.
  * @sig_num: The signal number.
+ *
  * Return: Void.
  */
 

@@ -5,7 +5,8 @@
  * @head: Address of pointer to the head node.
  * @str: Str field of the node.
  * @number: Node idx used by history.
- * Return: Size of the list.
+ *
+ * Return: Size of list.
  */
 
 str_list *add_start_node(str_list **head, const char *str, int number)
@@ -38,7 +39,8 @@ str_list *add_start_node(str_list **head, const char *str, int number)
  * @head: Address of pointer to the head node.
  * @str: Str field of the node.
  * @number: Node idx used by history.
- * Return: Size of the list.
+ *
+ * Return: Size of list.
  */
 
 str_list *node_end(str_list **head, const char *str, int number)
@@ -77,7 +79,8 @@ str_list *node_end(str_list **head, const char *str, int number)
 /**
  * print_string_list - Prints str element of a str_list linked list.
  * @ptr: Pointer to the first node.
- * Return: Size of the list.
+ *
+ * Return: Size of list.
  */
 
 size_t print_string_list(const str_list *ptr)
@@ -98,7 +101,8 @@ size_t print_string_list(const str_list *ptr)
  * rm_start_node - Deletes a node at a given idx.
  * @head: Address of pointer to the first node.
  * @idx: Index of the node to delete.
- * Return: 1 on success, 0 on failure.
+ *
+ * Return: 1 || 0
  */
 
 int rm_start_node(str_list **head, unsigned int idx)
@@ -137,7 +141,6 @@ int rm_start_node(str_list **head, unsigned int idx)
 /**
  * freel - Frees all nodes of a list.
  * @head_ptr: Address of pointer to the head node.
- * Return: Void.
  */
 
 void freel(str_list **head_ptr)

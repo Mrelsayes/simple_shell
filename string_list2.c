@@ -3,7 +3,8 @@
 /**
  * listlen - Determines the length of a linked list.
  * @ptr: Pointer to the first node.
- * Return: Size of the list.
+ *
+ * Return: Size of list.
  */
 
 size_t listlen(const str_list *ptr)
@@ -21,6 +22,7 @@ size_t listlen(const str_list *ptr)
 /**
  * liststr - Returns an array of strings of the list->str.
  * @ptr: Pointer to the first node.
+ *
  * Return: Array of strings.
  */
 
@@ -58,7 +60,8 @@ char **liststr(str_list *ptr)
 /**
  * print_lists - Prints all elements of a str_list linked list.
  * @ptr: Pointer to the first node.
- * Return: Size of the list.
+ *
+ * Return: Size of list.
  */
 
 size_t print_lists(const str_list *ptr)
@@ -83,7 +86,8 @@ size_t print_lists(const str_list *ptr)
  * @node: Pointer to the list ptr.
  * @prefix: String to match.
  * @c: The next character after the prefix to match.
- * Return: Matched node or NULL.
+ *
+ * Return: Matched node || NULL.
  */
 
 str_list *node_start(str_list *node, char *prefix, char c)
@@ -104,7 +108,8 @@ str_list *node_start(str_list *node, char *prefix, char c)
  * get_start_node - Gets the index of a node.
  * @ptr: Pointer to the list ptr.
  * @node: Pointer to the node.
- * Return: Index of the node or -1.
+ *
+ * Return: Index of the node || -1.
  */
 
 ssize_t get_start_node(str_list *ptr, str_list *node)

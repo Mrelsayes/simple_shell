@@ -3,7 +3,8 @@
 /**
  * error_atoi - Converts a string to an integer.
  * @str: The string to be converted.
- * Return: 0 if no numbers in the string, the converted num otherwise, -1.
+ *
+ * Return: 0 || -1
  */
 
 int error_atoi(char *str)
@@ -32,7 +33,8 @@ int error_atoi(char *str)
  * print_err - Prints an error message.
  * @inf: The parameter and return inf struct.
  * @str: String containing the specified error type.
- * Return: 0 if no numbers in the string, the converted num otherwise, -1.
+ *
+ * Return: 0 || -1
  */
 
 void print_err(get_info *inf, char *str)
@@ -50,7 +52,8 @@ void print_err(get_info *inf, char *str)
  * print_dec - Prints a decimal integer num base 10.
  * @in: The in.
  * @fd: The file descriptor to write to.
- * Return: The num of characters printed.
+ *
+ * Return: The num of characters.
  */
 
 int print_dec(int in, int fd)
@@ -90,6 +93,7 @@ int print_dec(int in, int fd)
  * @num: Number.
  * @base: Base.
  * @flag: Argument flag.
+ *
  * Return: String.
  */
 
@@ -124,6 +128,7 @@ char *number_convertor(long int num, int base, int flag)
 /**
  * comment_rm - Replaces the first instance of '#' with '\0'.
  * @buffer: Address of the string to modify.
+ *
  * Return: 0.
  */
 

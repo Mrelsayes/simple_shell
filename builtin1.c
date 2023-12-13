@@ -3,6 +3,7 @@
 /**
  * m_history - Displays the history list and one command per line.
  * @inf: Structure containing potential arguments
+ *
  * Return: 0.
  */
 
@@ -16,6 +17,7 @@ int m_history(get_info *inf)
  * unset_alias - Assigns an alias to a string.
  * @inf: Parameter struct containing relevant information.
  * @str: The string representing the alias.
+ *
  * Return: 0 on success, 1 on error.
  */
 
@@ -39,6 +41,7 @@ int unset_alias(get_info *inf, char *str)
  * set_alias - Assigns an alias to a string.
  * @inf: Parameter struct.
  * @str: The string representing the alias.
+ *
  * Return: 0 on success, 1 on error.
  */
 
@@ -59,6 +62,7 @@ int set_alias(get_info *inf, char *str)
 /**
  * print_alias - Outputs the alias string.
  * @node: The alias node.
+ *
  * Return: 0 on success, 1 on error.
  */
 
@@ -82,6 +86,7 @@ int print_alias(str_list *node)
 /**
  * m_alias - Mimics the alias built-in.
  * @inf: Structure containing potential arguments.
+ *
  * Return: 0.
  */
 

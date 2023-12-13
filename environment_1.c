@@ -3,6 +3,7 @@
 /**
  * m_env - Prints the current environment.
  * @inf: Structure containing potential arguments.
+ *
  * Return: 0.
  */
 
@@ -16,6 +17,7 @@ int m_env(get_info *inf)
  * get_env - Gets the value of an environment variable.
  * @inf: Structure containing potential arguments
  * @name: Environment variable name.
+ *
  * Return: The value.
  */
 
@@ -37,6 +39,7 @@ char *get_env(get_info *inf, const char *name)
 /**
  * m_set_env - Initializes a new environment variable.
  * @inf: Structure containing potential arguments.
+ *
  * Return: 0.
  */
 
@@ -55,6 +58,7 @@ int m_set_env(get_info *inf)
 /**
  * m_unset_env - Removes an environment variable.
  * @inf: Structure containing potential arguments.
+ *
  * Return: 0.
  */
 
@@ -76,6 +80,7 @@ int m_unset_env(get_info *inf)
 /**
  * p_env_llist - Populates the environment linked list.
  * @inf: Structure containing potential arguments.
+ *
  * Return: 0.
  */
 
